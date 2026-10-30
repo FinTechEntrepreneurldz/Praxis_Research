@@ -1,0 +1,4 @@
+arm,comparator,regime,complete_seed_pairs,metric,status,days,effect,ci_low,ci_high,p_value,bootstrap_reps,condition,p_holm
+FIXED_FULL,FIXED_IV,RISK_ON,3,mean_daily_return,insufficient_regime_days,0,,,,,,,
+FIXED_FULL,FIXED_IV,NEUTRAL,3,mean_daily_return,estimated,1424,3.517227330081917e-06,-0.0002730369614159371,0.00022928521411923173,0.9825087456271864,2000.0,Regime mask resampled with shared calendar blocks; exploratory conditional mean return.,0.9825087456271864
+FIXED_FULL,FIXED_IV,RISK_OFF,3,mean_daily_return,insufficient_regime_days,0,,,,,,,

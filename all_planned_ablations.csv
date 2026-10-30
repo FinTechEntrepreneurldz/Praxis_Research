@@ -1,0 +1,12 @@
+arm,branch,independent_fits,signal,regime,sector,learned,reward,exposure_min,modality,controller,cost_multiplier
+FIXED_I,overlay,0,I,False,False,False,original,0.8,all,sac,1.0
+FIXED_V,overlay,0,V,False,False,False,original,0.8,all,sac,1.0
+FIXED_IV,overlay,0,IV,False,False,False,original,0.8,all,sac,1.0
+FIXED_FULL,overlay,0,IV,True,True,False,original,0.8,all,sac,1.0
+SAC_FULL,overlay,48,IV,True,True,True,original,0.8,all,sac,1.0
+SAC_FULL_NO_V,overlay,48,NO_V,True,True,True,original,0.8,all,sac,1.0
+SAC_FULL_NO_I,overlay,48,NO_I,True,True,True,original,0.8,all,sac,1.0
+BTC,benchmark,0,IV,True,True,False,original,0.8,all,sac,1.0
+EQUAL,benchmark,0,IV,True,True,False,original,0.8,all,sac,1.0
+LARGE_CAP,benchmark,0,IV,True,True,False,original,0.8,all,sac,1.0
+MOMENTUM,benchmark,0,IV,True,True,False,original,0.8,all,sac,1.0

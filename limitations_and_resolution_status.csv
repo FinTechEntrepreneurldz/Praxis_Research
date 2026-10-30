@@ -1,0 +1,11 @@
+issue,implemented_evidence,remaining_boundary
+training seeds,Independent per-arm/seed/fold fits and paired seed/time bootstrap,Completed study still shares one observed market history; folds are not independent seeds.
+cadence confound,Weekly comparison plus cadence-matched fixed exposure comparison,"Original H3 concerns complete implementations, not causal isolation of exposure."
+turnover and fold resets,Original accounting deliberately retained for controlled comparisons,Drifted-holdings turnover and uninterrupted execution are not established by this study.
+transaction costs,Fixed-decision fee sensitivity on completed paths,"No order book, exchange fills or market impact validation."
+coverage,Exact fold/bar counts; partial dates identified,Original dropped boundary interval is not fabricated; year ends at the observed endpoint.
+processed prices,Original price audit and pre-test price-only vision fits,Original clipping/imputation and point-in-time feature uncertainty remain.
+large drawdown,"Original SAC versus weekly and cadence-matched controls, all folds",Original 80–100% exposure constraint retained; no hard drawdown cap or guaranteed improvement.
+historical agents,Actual cached decisions used; joint-layer comparison and decision records exported,"Current replay cannot certify unavailable historical prompts, model cutoff or inputs."
+supplemental components,"GA, DDPM and separate portfolio agents excluded by the minimal design",No claim of new execution or validation of excluded components.
+prospective execution,Explicit research boundary,Paper trading and live validation were not performed.

@@ -1,0 +1,9 @@
+component,role
+Ichimoku,Used in alpha and explicitly ablated
+Chart vision,Daily price-only charts; three pre-test teacher/student fits
+Regime + sector,Actual cached classifications and multipliers; joint layer versus baseline
+SAC,"Full, no vision, no Ichimoku; independent seeds in all original folds"
+Weekly agentic,Original weekly evaluator; generated from FIXED_FULL inputs
+Benchmarks,"Bitcoin, equal weight, large-cap and momentum; original testing functions"
+Exposure bands,"Five drawdown bands, pre/post action, each seed and fold"
+Sentiment / encoder / meta / TD3 / PPO / GA / DDPM,"OUT_OF_SCOPE: supplemental original pipeline, not needed for the supplied four questions"

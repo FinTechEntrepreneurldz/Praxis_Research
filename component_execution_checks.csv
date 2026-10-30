@@ -1,0 +1,10 @@
+component,status,detail
+all_planned_evaluations,PASS,528/528 committed evaluation paths; training jobs are counted separately.
+committed_artifact_integrity,PASS,528 completed paths verified; 0 invalid paths. Zero paths cannot establish a pass.
+independent_SAC_fits,PASS,144/144 independently trained SAC fits.
+vision_seed_11,PASS,"3934 training charts, 700 validation charts; first_train_refit."
+vision_seed_29,PASS,"3934 training charts, 700 validation charts; first_train_refit."
+vision_seed_47,PASS,"3934 training charts, 700 validation charts; first_train_refit."
+decision_time_trace_schema,PASS,"Regime, sector, allocation and timestamps linked per asset."
+supplemental_portfolio_GA_DDPM,OUT_OF_SCOPE,Excluded from minimal RQ1–RQ4 study; original cells and outputs remain archived. No claim that these were retrained or stress-tested.
+chart_input_provenance,EVIDENCE_LIMIT,"New-refit chart input audit: {""invalid_processed_price_bars"": 978, ""invalid_processed_volume_bars"": 0, ""raw_price_replacements"": 0, ""raw_volume_replacements"": 0, ""unresolved_price_bars"": 978, ""unresolved_volume_bars"": 0}; label audit: {""selected_charts"": 25536, ""invalid_endpoints_or_empty_context"": 28, ""recomputed_label_changes"": 0, ""rule"": ""Ineligible labels never enter teacher or student training/validation; empty-context inference is neutral.""}. Raw replacements use the same timestamp. Unresolved candles/volumes are marked missing; invalid label endpoints are excluded from vision training/validation. Portfolio returns and original feature frames were not modified, so this does not repair or certify original price preprocessing. Detailed evidence: chart_input_audit/summary.csv, affected_bars.csv and selected_chart_labels.parquet."
