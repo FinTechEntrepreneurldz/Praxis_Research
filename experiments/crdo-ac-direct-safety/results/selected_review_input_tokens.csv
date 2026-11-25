@@ -1,0 +1,10 @@
+mode,seed,selected_review_input_tokens
+crdo,42,88786
+crdo,123,88786
+crdo,2026,88777
+no_tail,42,88784
+no_tail,123,88786
+no_tail,2026,88780
+sac,42,88781
+sac,123,88775
+sac,2026,88779

@@ -1,0 +1,13 @@
+{
+  "sealed_utc": "2026-11-25T14:19:18.738797+00:00",
+  "files": {
+    "protocol.md": "c2e3bd804ce59f3942623c081dff394c1907378cb102ba9ab073b812413af815",
+    "code/env.py": "62e5ac8eece03bf199baa602febfcf7347130f2972f3c99b6bcdac772a6695b0",
+    "code/evaluate.py": "7dc7ab51bbbed31bc95007a05dd9815f1aa33f3e5d45fb107f8f12d73f1127bc",
+    "code/fetch_models.py": "c3eae185313e3d2a18091601c5f067ef75f34fdbd2eaa2f853daedbfe7c43b16",
+    "code/inference.py": "8e3a9794357ca3eb14cf5ef1f3cffb2a91f80527e6eed14113a2f6a73612be3a",
+    "code/praxis_learner.py": "1acfc14c9474700a53e606ffa4e7565babd8bcbfc44879f43edad3d0a85c7cfe",
+    "code/tasks.py": "608978cfb2522aedda05535d847394a4cacc755680f3af3f2acedad970f0c460",
+    "code/train.py": "25465084fafb1e2acb6e033fdf77fbc58c269ca1e053b59f081cb1f83692e548"
+  }
+}
