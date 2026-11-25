@@ -1,0 +1,122 @@
+[
+  {
+    "domain": "pooled",
+    "challenger": "crdo",
+    "baseline": "sac",
+    "n": 1024,
+    "eligible": 434,
+    "severe_delta": -0.008138020833333332,
+    "completion_delta": 0.015360983102918585,
+    "severe_upper": -0.0013020833333333333,
+    "completion_lower": -0.0040364943866119185,
+    "severe_ci": [
+      -0.016276041666666664,
+      -3.754050022234609e-19
+    ],
+    "completion_ci": [
+      -0.007751937984496126,
+      0.03934682524952569
+    ],
+    "passed": false
+  },
+  {
+    "domain": "archive",
+    "challenger": "crdo",
+    "baseline": "sac",
+    "n": 512,
+    "eligible": 225,
+    "severe_delta": -0.010416666666666668,
+    "completion_delta": 0.031111111111111107,
+    "severe_upper": -0.000651041666666667,
+    "completion_lower": -0.0015360983102918604,
+    "severe_ci": [
+      -0.02278645833333333,
+      0.0006510416666666672
+    ],
+    "completion_ci": [
+      -0.008334380234505867,
+      0.07207207207207206
+    ],
+    "passed": false
+  },
+  {
+    "domain": "equipment",
+    "challenger": "crdo",
+    "baseline": "sac",
+    "n": 512,
+    "eligible": 209,
+    "severe_delta": -0.005859374999999998,
+    "completion_delta": -0.0015948963317384366,
+    "severe_upper": 0.0032552083333333348,
+    "completion_lower": -0.022409591639346322,
+    "severe_ci": [
+      -0.016927083333333332,
+      0.005208333333333334
+    ],
+    "completion_ci": [
+      -0.026315789473684216,
+      0.022116903633491312
+    ],
+    "passed": false
+  },
+  {
+    "domain": "pooled",
+    "challenger": "crdo",
+    "baseline": "no_tail",
+    "n": 1024,
+    "eligible": 434,
+    "severe_delta": 0.0013020833333333335,
+    "completion_delta": 0.0038402457757296476,
+    "severe_upper": 0.003255208333333333,
+    "completion_lower": -0.0016064257028112442,
+    "severe_ci": [
+      -0.0009765624999999996,
+      0.0035807291666666665
+    ],
+    "completion_ci": [
+      -0.0029695619896065325,
+      0.010860711561512458
+    ],
+    "passed": false
+  },
+  {
+    "domain": "archive",
+    "challenger": "crdo",
+    "baseline": "no_tail",
+    "n": 512,
+    "eligible": 225,
+    "severe_delta": 0.0026041666666666665,
+    "completion_delta": 0.0059259259259259265,
+    "severe_upper": 0.005859375,
+    "completion_lower": -0.0033003300330033,
+    "severe_ci": [
+      -0.0006510416666666666,
+      0.006510416666666666
+    ],
+    "completion_ci": [
+      -0.005673758865248226,
+      0.017628205128205125
+    ],
+    "passed": false
+  },
+  {
+    "domain": "equipment",
+    "challenger": "crdo",
+    "baseline": "no_tail",
+    "n": 512,
+    "eligible": 209,
+    "severe_delta": 2.168404344971009e-19,
+    "completion_delta": 0.0015948963317384372,
+    "severe_upper": 0.001953125,
+    "completion_lower": -0.003350083752093803,
+    "severe_ci": [
+      -0.002604166666666666,
+      0.0026041666666666665
+    ],
+    "completion_ci": [
+      -0.004545454545454545,
+      0.009615384615384616
+    ],
+    "passed": false
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "records": 1024,
+  "seconds": 606.6453295290003,
+  "sha256": "f4ef626c14beba1bfe997c8343af8bee000dbbf030949726aa654929d7279f9b",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "commit": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "device": "cpu",
+  "dtype": "bfloat16",
+  "torch": "2.8.0+cpu",
+  "transformers": "4.54.1",
+  "checks": [
+    {
+      "domain": "archive",
+      "max_raw_logit_delta": 0.0,
+      "top_equal": true
+    },
+    {
+      "domain": "equipment",
+      "max_raw_logit_delta": 0.0,
+      "top_equal": true
+    }
+  ],
+  "model_hashes": {
+    "config.json": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+    "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "model.safetensors": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fresh_case_stage_calls": 6144,
+  "records": 2048,
+  "training_queues": 256,
+  "test_queues": 256,
+  "heldout_policy_decisions": 9216,
+  "checkpoints": 9,
+  "optimizer_updates": 180000,
+  "same_training_data": true,
+  "same_batch_order_and_initial_actor_by_seed": true,
+  "review_units_each_fit": 1024,
+  "input_tokens": {
+    "train_draft": 158720,
+    "train_revision": 180502,
+    "train_escalation": 164352,
+    "test_draft": 164352,
+    "test_revision": 186245,
+    "test_escalation": 168960
+  }
+}
